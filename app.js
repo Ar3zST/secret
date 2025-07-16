@@ -14,11 +14,11 @@ function obterPalavraTentativas(numero) {
 }
 
 escrever("h1", "Adivinhe o número");
-escrever("p", "Escolha um número entre 1 e 10");
+escrever("p", "Escolha um número entre 1 e 100");
 
 function mensagemInicial() {
     escrever("h1", "Adivinhe o número");
-    escrever("p", "Escolha um número entre 1 e 10");
+    escrever("p", "Escolha um número entre 1 e 100");
 }
 
 
