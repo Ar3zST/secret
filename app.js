@@ -1,5 +1,5 @@
 let listadenumerosSorteados = [];
-let numeroLimite = 100;
+let numeroLimite = 50;
 let numeroAleatorio = gerarNumeroAleatorio();
 let tentativas = 1;
 
@@ -14,11 +14,11 @@ function obterPalavraTentativas(numero) {
 }
 
 escrever("h1", "Adivinhe o número");
-escrever("p", "Escolha um número entre 1 e 100");
+escrever("p", "Escolha um número entre 1 e 50");
 
 function mensagemInicial() {
     escrever("h1", "Adivinhe o número");
-    escrever("p", "Escolha um número entre 1 e 100");
+    escrever("p", "Escolha um número entre 1 e 50");
 }
 
 
